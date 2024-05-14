@@ -90,6 +90,3 @@ def test_get_list_of_favorites_books():
     collector.add_new_book("Собака Баскервилей")
     collector.add_book_in_favorites("Собака Баскервилей")
     assert collector.get_list_of_favorites_books() == ["Собака Баскервилей"]
-
-if __name__ == "__main__":
-    pytest.main()
